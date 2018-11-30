@@ -1,0 +1,171 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.wrapper_nav{
+    padding: 1em 0;
+    display: inline-block;
+    width: 100%;
+    background-image: url(jc.jpg);
+}
+.logo{
+    float: left;
+    padding-left: 1em;
+    clear: right;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 800;
+    color: black;
+    display: inline-block;
+  
+}
+
+@font-face{
+    font-family: montserrat;
+    src: url(Montserrat-Thin.ttf);
+    font-weight: bold;
+}
+@font-face{
+    font-family: montserratn;
+    src: url(Montserrat-Regular.ttf);
+   
+}
+.logo p{
+    margin: 0;
+    padding: 0;
+    font-family: montserratn;
+}
+
+
+.content h2{
+    color: white;
+    font-weight: 400;
+    font-family: montserratn;
+}
+
+.style_info{
+    text-align: left;
+    padding-left: 2em;
+}
+.row_one{
+    width: 100%;
+    padding: 1em 0 0 0;
+}
+
+.style h2{
+    padding: 20px 0 0.5em 0;
+    margin: 0;
+    font-size: 30px;
+    color: black;
+    font-family: montserratn;
+
+    
+}
+.style{
+    background-image: url(ropa1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.banner{
+    background-image: url(sig.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-align: center;
+    
+}
+
+
+.banner h1{
+    margin: 0;
+    padding: .7em 0 0 0;
+    font-size: 40px;
+    font-weight: 100;
+    font-family: montserrat;
+    
+}
+
+
+.next{
+    background-image: url(ropa3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.style_info{
+    text-align: right;
+    padding-left: 2em;
+}
+
+.row_two{
+    width: 100%;
+    padding: 1em 0 0 0;
+}
+
+.row_two{
+    width: 100%;
+    background-color: white;
+    clear: both;
+    text-align: center;
+    padding: 1em;
+}
+
+.coment_info h2{
+    color: black;
+}
+
+
+.wom{
+    background-image: url(ropa4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+
+.row_3{
+    width: 100%;
+    background-color: black;
+    clear: both;
+    text-align: center; 
+}
+
+.wom1{
+    background-image: url(ropa6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    float: left;
+}

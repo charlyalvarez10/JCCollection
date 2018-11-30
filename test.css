@@ -1,0 +1,247 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.wrapper_nav{
+    padding: 1em 0;
+    display: inline-block;
+    width: 100%;
+    background-image: url(jc.jpg);
+}
+.logo{
+    float: left;
+    padding-left: 1em;
+    clear: right;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 800;
+    color: black;
+    display: inline-block;
+  
+}
+
+@font-face{
+    font-family: montserrat;
+    src: url(Montserrat-Thin.ttf);
+    font-weight: bold;
+}
+@font-face{
+    font-family: montserratn;
+    src: url(Montserrat-Regular.ttf);
+   
+}
+.logo p{
+    margin: 0;
+    padding: 0;
+    font-family: montserratn;
+}
+.main_nav{
+    float: right;
+    padding-right: 1em;
+}
+
+.main_nav a{
+    text-decoration: none;
+    color: black;
+    padding: 0;
+    margin: 0;
+    font-family: montserratn;
+
+}
+
+.main_nav a p{
+    display: inline;
+    font-size: 14px;
+    font-weight: 100;
+    padding: 0;
+    margin: .35em;
+    
+}
+
+.main_nav a:first-child{
+    color: orange;
+}
+
+.banner{
+    background-image: url(1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 468px;
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-align: center;
+    
+}
+
+.banner h1{
+    margin: 0;
+    padding: 1.75em 0 0 0;
+    font-size: 60px;
+    font-weight: 100;
+    font-family: montserratn;
+    
+}
+
+.banner p{
+    font-size: 20px;
+    font-weight: 100;
+    opacity: 0.8;
+    padding: 0 0 4em 0;
+    font-family: montserrat;
+}
+
+.btn_one{
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    font-size: 15px;
+    background-color:white;
+    border-color: black;
+    padding: .75em 3.75em;
+    border-radius: 300px;
+}
+
+.content h2{
+    color: white;
+    font-weight: 400;
+    font-family: montserratn;
+}
+
+.style_info{
+    text-align: left;
+    padding-left: 2em;
+}
+.row_one{
+    width: 100%;
+}
+
+.style h2{
+    padding: 20px 0 0.5em 0;
+    margin: 0;
+    font-size: 30px;
+    color: black;
+    font-family: montserratn;
+
+    
+}
+.style{
+    background-image: url(banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 325px;
+    width: 60%;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+/*.btn_two{
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+    font-size: 12px;
+    background-color:white;
+    padding: 0.5em 1em;
+    border-radius: 100px;
+}*/
+
+.save{
+    background-image: url(2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    float: right;
+    height: 325px;
+    text-align: center;
+    
+}
+
+.content p{
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    opacity: 0.9;
+    padding: 0;
+    margin: 0;
+    font-family: montserrat;
+}
+
+.save h2{
+    padding: 165px 0 0.2em 0;
+    margin: 0;
+    color: white;
+    font-family: montserratn;
+}
+
+.row_two{
+    width: 100%;
+    background-color: black;
+    clear: both;
+    float: left;
+}
+
+.mens{
+    width: 33.3%;
+    float: left;
+    background-image: url(3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 325px;
+    text-align: center;
+}
+
+.womens{
+    width: 33.3%;
+    float: left;
+    background-image: url(4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 325px;
+    text-align: center;
+}
+
+.acc{
+    width: 33.3%;
+    float: left;
+    background-image: url(5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 325px;
+    text-align: center;
+    font-family: montserratn;
+}
+
+.mens h2{
+    padding: 165px 0 0.2em 0;
+    margin: 0;
+    color: white;
+    font-family: montserrat;
+   
+}
+
+.womens h2{
+    padding: 165px 0 0.2em 0;
+    margin: 0;
+    color: white;
+    
+}
+
+.acc h2{
+    padding: 165px 0 0.2em 0;
+    margin: 0;
+    color: white;
+    font-family: montserrat;
+   
+}
